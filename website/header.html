@@ -1,0 +1,40 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.nav-header {
+        background-color: #333;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+.nav-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 60px;
+    }
+.nav-link {
+        color: white;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        transition: all 0.3s ease;
+    }
+.nav-link:hover {
+        color: #ffd700;
+        transform: translateY(-2px);
+    }
+</style>
+
+<header class="nav-header">
+    <div class="nav-container" style="color:white;">
+        <a href="index.php" class="nav-link">Home</a>
+        <a href="about.php" class="nav-link">About</a>
+        <a href="contact.php" class="nav-link">Contact</a>
+        <a href="location.php" class="nav-link">Location</a>
+    </div>
+</header>
