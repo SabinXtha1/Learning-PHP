@@ -7,3 +7,6 @@
    }
 
 ?>
+<?php 
+session_start();
+?>
